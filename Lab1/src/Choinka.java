@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Choinka{
 	public static void main(String[] args){
 		int wysokosc = Integer.parseInt(args[0]);
