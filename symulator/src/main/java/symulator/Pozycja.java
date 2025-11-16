@@ -11,4 +11,8 @@ public class Pozycja {
         String pozycja = "Pozycja wynosi X: " + x + "Y: " + y;
         return pozycja;
     }
+    public Pozycja(){
+        this.x = 0;
+        this.y = 0;
+    }
 }
