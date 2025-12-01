@@ -4,7 +4,7 @@ public class SkrzyniaBiegów extends Komponent{
     int aktualnyBieg;
     int iloscBiegow;
     Sprzęgło sprzeglo;
-    void zwiększBieg(){
+    public void zwiększBieg(){
         if((sprzeglo.stanSprzęgła) == true){
             if(aktualnyBieg < iloscBiegow){
                 aktualnyBieg++;
@@ -17,7 +17,7 @@ public class SkrzyniaBiegów extends Komponent{
             System.out.println("PALISZ SPRZĘGŁO");
         }
     }
-    void zmniejszBieg(){
+    public void zmniejszBieg(){
         if((sprzeglo.stanSprzęgła) == true){
             if (aktualnyBieg > 1) {
                 aktualnyBieg--;

@@ -2,10 +2,10 @@ package symulator;
 
 public class Sprzęgło extends Komponent{
     boolean stanSprzęgła;
-    void wcisnij(){
+    public void wcisnij(){
         stanSprzęgła = true;
     }
-    void zwolnij(){
+    public void zwolnij(){
         stanSprzęgła = false;
     }
     public Sprzęgło(String producent, String model, int rocznik, String nazwa, int waga, int cena){

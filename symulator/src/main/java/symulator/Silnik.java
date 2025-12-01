@@ -3,18 +3,18 @@ package symulator;
 public class Silnik extends Komponent {
     int maxObroty;
     int obroty;
-    void uruchom(){
+    public void uruchom(){
         obroty = 900;
     }
-    void zatrzymaj(){
+    public void zatrzymaj(){
         obroty = 0;
     }
-    void zwiększObroty(){
+    public void zwiększObroty(){
         if(obroty+500 < maxObroty) {
             obroty += 500;
         }
     }
-    void zmniejszObroty(){
+    public void zmniejszObroty(){
         if(obroty-500 > 900){
             obroty -= 500;
         }
